@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Abdul Samad Qureshi — Digital Services &amp; Web Development</title>
+<meta name="description" content="Abdul Samad Qureshi — Computer Operator, Digital Services Professional, Web Developer &amp; Graphic Designer." />
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ PRELOADER / NOTHING FANCY, JUST QUICK FADE ============ -->
+<div id="page-veil" aria-hidden="true"></div>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-brand">
+      <img src="assets/images/profile.png.png" alt="Abdul Samad Qureshi" class="nav-avatar">
+      <span class="nav-brand-text">
+        <strong>Abdul Samad Qureshi</strong>
+        <small>Digital Services &amp; Web Development</small>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#certificates" class="nav-link">Certificates</a>
+      <a href="#testimonials" class="nav-link">Testimonials</a>
+      <a href="#contact" class="nav-link nav-cta">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-media" aria-hidden="true">
+      <video class="hero-video" autoplay muted loop playsinline poster="assets/images/Background Walpaper.jpg">
+        <source src="assets/video/Nav back.mp4" type="video/mp4">
+      </video>
+      <div class="hero-fallback"></div>
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content container">
+      <p class="hero-kicker">Based in Punjab, Pakistan · Available for freelance &amp; on-site work</p>
+      <h1 class="hero-title">
+        I'm Abdul Samad Qureshi,<br>
+        a <span id="hero-role" class="hero-role">Web Developer</span>
+      </h1>
+      <p class="hero-lead">
+        I turn everyday technology problems — a slow office workflow, a form that needs filing online,
+        a design that needs to look sharper — into solved, working outcomes. My work sits at the
+        intersection of practical computer operations and modern web development, built on years
+        of hands-on desk support, printing and design work, and self-taught programming.
+      </p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View My Work</a>
+        <a href="#services" class="btn btn-ghost">Explore Services</a>
+        <a href="#contact" class="btn btn-text">Contact Me <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-cards" aria-hidden="true">
+      <div class="hcard hcard-main">
+        <img src="./assets/images/Profile.jpg.png" alt="" onerror="this.parentElement.classList.add('img-missing')">
+      </div>
+      <div class="hcard hcard-float hcard-1"><i class="fa-solid fa-code"></i><span>Web Development</span></div>
+      <div class="hcard hcard-float hcard-2"><i class="fa-solid fa-palette"></i><span>Graphic Design</span></div>
+
+      <div class="hcard hcard-float hcard-4"><i class="fa-solid fa-file-lines"></i><span>Data Entry</span></div>
+    </div>
+
+    <a href="#work" class="scroll-cue" aria-label="Scroll to work section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ WORK / PROJECTS ============ -->
+  <section class="section" id="work">
+    <div class="container">
+      <p class="eyebrow">Selected Work</p>
+      <h2 class="section-title">Projects worth a closer look</h2>
+      <p class="section-lead">A mix of client web builds, personal practice projects and design work. Replace these with your own — structure notes are in the code comments.</p>
+    </div>
+
+    <div class="work-scroller-wrap container">
+      <button class="scroll-arrow scroll-arrow-left" id="work-prev" aria-label="Previous project"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="work-scroller" id="work-scroller">
+
+        <article class="project-card">
+          <div class="project-media">
+            <img src="assets/projects/1.jpg" alt="Project preview" draggable="false" oncontextmenu="return false" onerror="this.parentElement.classList.add('img-missing')">
+            <span class="watermark">Abdul Samad Qureshi</span>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Web Development</span>
+            <h3>Local Business Landing Page</h3>
+            <p>A single-page responsive site built for a local shop, focused on fast load times and a clean contact flow.</p>
+            <p class="project-stack">HTML · CSS · JavaScript</p>
+            <button class="btn btn-outline btn-sm js-project-view" data-project="1">View Project</button>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media">
+            <img src="assets/projects/2.jpg" alt="Project preview" draggable="false" oncontextmenu="return false" onerror="this.parentElement.classList.add('img-missing')">
+            <span class="watermark">Abdul Samad Qureshi</span>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Graphic Design</span>
+            <h3>YouTube Thumbnail Set</h3>
+            <p>A batch of thumbnail designs for a growing channel, kept consistent with a repeatable template system.</p>
+            <p class="project-stack">Photo Editing · Branding</p>
+            <button class="btn btn-outline btn-sm js-project-view" data-project="2">View Project</button>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media">
+            <img src="assets/projects/3.jpg" alt="Project preview" draggable="false" oncontextmenu="return false" onerror="this.parentElement.classList.add('img-missing')">
+            <span class="watermark">Abdul Samad Qureshi</span>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Digital Services</span>
+            <h3>Admissions Form Digitisation</h3>
+            <p>Helped a small institute move a paper admission process onto simple online forms and organised record-keeping.</p>
+            <p class="project-stack">Data Entry · Online Forms</p>
+            <button class="btn btn-outline btn-sm js-project-view" data-project="3">View Project</button>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media">
+            <img src="assets/projects/4.jpg" alt="Project preview" draggable="false" oncontextmenu="return false" onerror="this.parentElement.classList.add('img-missing')">
+            <span class="watermark">Abdul Samad Qureshi</span>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Web Development</span>
+            <h3>Personal Portfolio (v1)</h3>
+            <p>An earlier practice build exploring layout, responsive design and vanilla JavaScript interactivity.</p>
+            <p class="project-stack">HTML · CSS · JavaScript</p>
+            <button class="btn btn-outline btn-sm js-project-view" data-project="4">View Project</button>
+          </div>
+        </article>
+
+      </div>
+      <button class="scroll-arrow scroll-arrow-right" id="work-next" aria-label="Next project"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <p class="eyebrow">What I Offer</p>
+      <h2 class="section-title">Services built around real, everyday needs</h2>
+      <p class="section-lead">Practical support across design, computers and digital administration — the kind of work I've been doing for years, offered directly to you.</p>
+
+      <div class="services-grid">
+
+        <article class="service-card" data-accent="design">
+          <i class="fa-solid fa-palette service-icon"></i>
+          <h3>Graphic Design</h3>
+          <p>Posters, banners, cards and social media visuals designed to look sharp and print cleanly.</p>
+          <button class="btn btn-text js-service-view" data-service="design">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="print">
+          <i class="fa-solid fa-print service-icon"></i>
+          <h3>Printing Services</h3>
+          <p>Colour and black &amp; white printing, document formatting and print-ready file preparation.</p>
+          <button class="btn btn-text js-service-view" data-service="print">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="system">
+          <i class="fa-brands fa-windows service-icon"></i>
+          <h3>Windows Installation</h3>
+          <p>Clean Windows installs, driver setup and system configuration for laptops and desktops.</p>
+          <button class="btn btn-text js-service-view" data-service="system">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="system">
+          <i class="fa-solid fa-download service-icon"></i>
+          <h3>Software Installation</h3>
+          <p>Installing and configuring the software you actually need, with no unnecessary bloat.</p>
+          <button class="btn btn-text js-service-view" data-service="software">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="digital">
+          <i class="fa-solid fa-file-circle-check service-icon"></i>
+          <h3>Online Applications</h3>
+          <p>Filling and submitting online applications accurately, from job forms to institutional portals.</p>
+          <button class="btn btn-text js-service-view" data-service="applications">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="digital">
+          <i class="fa-solid fa-graduation-cap service-icon"></i>
+          <h3>Admissions Assistance</h3>
+          <p>Guiding students and parents through admission forms, documentation and submission steps.</p>
+          <button class="btn btn-text js-service-view" data-service="admissions">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="digital">
+          <i class="fa-solid fa-pen-to-square service-icon"></i>
+          <h3>Online Forms &amp; Card Filling</h3>
+          <p>Accurate, careful data entry for online forms, registration cards and record sheets.</p>
+          <button class="btn btn-text js-service-view" data-service="forms">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="design">
+          <i class="fa-solid fa-image service-icon"></i>
+          <h3>YouTube Thumbnail Design</h3>
+          <p>Clean, click-worthy thumbnails that stay consistent with your channel's visual identity.</p>
+          <button class="btn btn-text js-service-view" data-service="thumbnails">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="design">
+          <i class="fa-solid fa-film service-icon"></i>
+          <h3>Video Editing</h3>
+          <p>Trimming, sequencing and basic colour/audio cleanup for short-form and social video.</p>
+          <button class="btn btn-text js-service-view" data-service="video">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="design">
+          <i class="fa-solid fa-wand-magic-sparkles service-icon"></i>
+          <h3>Photo Editing</h3>
+          <p>Retouching, background cleanup and photo preparation for print or digital use.</p>
+          <button class="btn btn-text js-service-view" data-service="photo">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="system">
+          <i class="fa-solid fa-screwdriver-wrench service-icon"></i>
+          <h3>Computer Repair &amp; Maintenance</h3>
+          <p>Diagnosing slowdowns, hardware issues and general upkeep for desktops and laptops.</p>
+          <button class="btn btn-text js-service-view" data-service="repair">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="system">
+          <i class="fa-solid fa-print service-icon"></i>
+          <h3>Printer Repair &amp; Services</h3>
+          <p>Troubleshooting jams, connectivity and print-quality issues across common printer brands.</p>
+          <button class="btn btn-text js-service-view" data-service="printer-repair">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="system">
+          <i class="fa-solid fa-mobile-screen service-icon"></i>
+          <h3>Mobile Software Services</h3>
+          <p>Software-side support for mobile devices — setup, app configuration and basic troubleshooting.</p>
+          <button class="btn btn-text js-service-view" data-service="mobile">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="digital">
+          <i class="fa-solid fa-clapperboard service-icon"></i>
+          <h3>Movies &amp; Digital Content Services</h3>
+          <p>Sourcing, organising and preparing digital media content on request.</p>
+          <button class="btn btn-text js-service-view" data-service="content">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="finance">
+          <i class="fa-brands fa-bitcoin service-icon"></i>
+          <h3>Cryptocurrency Buy &amp; Sell Guidance</h3>
+          <p>Practical, careful guidance for people getting started with buying or selling cryptocurrency.</p>
+          <button class="btn btn-text js-service-view" data-service="crypto">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+        <article class="service-card" data-accent="finance">
+          <i class="fa-solid fa-key service-icon"></i>
+          <h3>Digital Accounts Buy &amp; Sell</h3>
+          <p>Assistance with the safe buying and selling of digital accounts and related services.</p>
+          <button class="btn btn-text js-service-view" data-service="accounts">View Details <i class="fa-solid fa-arrow-right"></i></button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <div class="container">
+      <p class="eyebrow">Capabilities</p>
+      <h2 class="section-title">Skills, organised by how I actually use them</h2>
+
+      <div class="skills-tabs" id="skills-tabs" role="tablist" aria-label="Skill categories">
+        <button class="skills-tab active" role="tab" aria-selected="true" data-cat="office">Computer &amp; Office</button>
+        <button class="skills-tab" role="tab" aria-selected="false" data-cat="design">Design &amp; Media</button>
+        <button class="skills-tab" role="tab" aria-selected="false" data-cat="web">Web Development</button>
+        <button class="skills-tab" role="tab" aria-selected="false" data-cat="programming">Programming</button>
+        <button class="skills-tab" role="tab" aria-selected="false" data-cat="digital">Digital Services</button>
+      </div>
+
+      <div class="skills-panels">
+        <div class="skills-panel active" data-cat="office">
+          <span class="skill-chip">Computer Operation</span>
+          <span class="skill-chip">Data Entry</span>
+          <span class="skill-chip">MS Office</span>
+          <span class="skill-chip">Office Administration</span>
+          <span class="skill-chip">Windows Setup</span>
+          <span class="skill-chip">Software Installation</span>
+          <span class="skill-chip">Printer Setup</span>
+        </div>
+        <div class="skills-panel" data-cat="design">
+          <span class="skill-chip">Graphic Design</span>
+          <span class="skill-chip">Photo Editing</span>
+          <span class="skill-chip">YouTube Thumbnail Design</span>
+          <span class="skill-chip">Video Editing</span>
+          <span class="skill-chip">Basic Animation / Content Work</span>
+        </div>
+        <div class="skills-panel" data-cat="web">
+          <span class="skill-chip">HTML</span>
+          <span class="skill-chip">CSS</span>
+          <span class="skill-chip">JavaScript</span>
+          <span class="skill-chip">Bootstrap</span>
+          <span class="skill-chip">PHP</span>
+          <span class="skill-chip">Laravel</span>
+          <span class="skill-chip">MySQL</span>
+          <span class="skill-chip">Responsive Web Design</span>
+        </div>
+        <div class="skills-panel" data-cat="programming">
+          <span class="skill-chip">Python Programming</span>
+        </div>
+        <div class="skills-panel" data-cat="digital">
+          <span class="skill-chip">Online Applications</span>
+          <span class="skill-chip">Admissions Assistance</span>
+          <span class="skill-chip">Online Forms</span>
+          <span class="skill-chip">Digital Accounts</span>
+          <span class="skill-chip">Freelancing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section section-alt" id="about">
+    <div class="container about-grid">
+      <div class="about-media">
+        <img src="assets/images/About.png" alt="Abdul Samad Qureshi" onerror="this.parentElement.classList.add('img-missing')">
+      </div>
+      <div class="about-content">
+        <p class="eyebrow">About Me</p>
+        <h2 class="section-title">Practical experience, applied where it's needed</h2>
+        <p>
+          I started out on the operations side of computers — running the day-to-day computer work for a
+          school, then moving into hands-on repair, printing and digital services at a local computer
+          shop. Along the way I picked up graphic design and data entry as everyday necessities, and more
+          recently I've been building out my web development skills through structured training and
+          personal projects in HTML, CSS, JavaScript and PHP.
+        </p>
+        <p>
+          What I bring isn't a single specialism — it's the ability to move between practical computer
+          support, design work and web development without losing attention to detail. If something needs
+          to be set up, designed, entered, filed or built, there's a good chance I've already done something
+          close to it.
+        </p>
+        <div class="about-highlights">
+          <div class="highlight"><i class="fa-solid fa-desktop"></i><span>Practical Computer Experience</span></div>
+          <div class="highlight"><i class="fa-solid fa-cloud"></i><span>Digital Services</span></div>
+          <div class="highlight"><i class="fa-solid fa-code"></i><span>Web Development Training</span></div>
+          <div class="highlight"><i class="fa-solid fa-palette"></i><span>Graphic Design</span></div>
+          <div class="highlight"><i class="fa-solid fa-comments"></i><span>Client Support</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="container">
+      <p class="eyebrow">Experience</p>
+      <h2 class="section-title">Where the practical skills came from</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">Knowledge Inn School</span>
+            <h3>Computer Operator</h3>
+            <ul>
+              <li>Prepared student cards and class-wise examination papers</li>
+              <li>Managed timetables and class schedules</li>
+              <li>Designed notice posters and examination schemes</li>
+              <li>Handled summer vacation work and general computer composing tasks</li>
+              <li>Supported day-to-day office and administrative computer work</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">Ibrar Computers &amp; Printers</span>
+            <h3>Computer &amp; Printer Services</h3>
+            <ul>
+              <li>Diagnosed and resolved computer and laptop issues</li>
+              <li>Carried out printer setup, servicing and troubleshooting</li>
+              <li>Performed Windows installations for walk-in customers</li>
+              <li>Managed data entry and online admissions/application submissions</li>
+              <li>Handled colour and black &amp; white printing jobs</li>
+              <li>Provided remote troubleshooting and support where needed</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <p class="eyebrow">Education</p>
+      <h2 class="section-title">Academic background</h2>
+
+      <div class="timeline timeline-compact">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3>Matriculation</h3>
+            <span class="timeline-period">Government Boys High School Jhuggi Wala</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <h3>FA (General)</h3>
+            <span class="timeline-period">Allama Iqbal Open University (AIOU)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATES ============ -->
+  <section class="section" id="certificates">
+    <div class="container">
+      <p class="eyebrow">Certificates</p>
+      <h2 class="section-title">Training &amp; completed courses</h2>
+
+      <div class="cert-grid">
+        <article class="cert-card js-cert-view" data-title="Full Stack Web Development" data-org="Training Institute" data-img="assets/images/certificates/cert-1.jpg">
+          <div class="cert-media">
+            <img src="assets/certificates/web.jpg" alt="" draggable="false" oncontextmenu="return false" onerror="this.parentElement.classList.add('img-missing')">
+            <span class="watermark">Abdul Samad Qureshi</span>
+          </div>
+          <h3>Full Stack Web Development</h3>
+          <p>Completed</p>
+          <button class="btn btn-outline btn-sm">View Certificate</button>
+        </article>
+
+        <article class="cert-card js-cert-view" data-title="Python Programming" data-org="Training Institute" data-img="assets/images/certificates/cert-2.jpg">
+          <div class="cert-media">
+            <img src="assets/certificates/Python.jpg" alt="" draggable="false" oncontextmenu="return false" onerror="this.parentElement.classList.add('img-missing')">
+            <span class="watermark">Abdul Samad Qureshi</span>
+          </div>
+          <h3>Python Programming</h3>
+          <p>Completed</p>
+          <button class="btn btn-outline btn-sm">View Certificate</button>
+        </article>
+
+        <article class="cert-card js-cert-view" data-title="Windows Server Administration" data-org="Training Institute" data-img="assets/images/certificates/cert-3.jpg">
+          <div class="cert-media">
+            <img src="assets/certificates/Admnistor.jpg" alt="" draggable="false" oncontextmenu="return false" onerror="this.parentElement.classList.add('img-missing')">
+            <span class="watermark">Abdul Samad Qureshi</span>
+          </div>
+          <h3>Windows Server Administration</h3>
+          <p>Completed</p>
+          <button class="btn btn-outline btn-sm">View Certificate</button>
+        </article>
+
+        <article class="cert-card js-cert-view" data-title="Computer Operator Training" data-org="Training Institute" data-img="assets/images/certificates/cert-4.jpg">
+          <div class="cert-media">
+            <img src="assets/certificates/tevta.jpg" alt="" draggable="false" oncontextmenu="return false" onerror="this.parentElement.classList.add('img-missing')">
+            <span class="watermark">Abdul Samad Qureshi</span>
+          </div>
+          <h3>Computer Operator Training</h3>
+          <p>Completed</p>
+          <button class="btn btn-outline btn-sm">View Certificate</button>
+        </article>
+
+        <article class="cert-card js-cert-view" data-title="Advanced Excel" data-org="Training Institute" data-img="assets/images/certificates/cert-5.jpg">
+          <div class="cert-media">
+            <img src="assets/certificates/Excel.jpg" alt="" draggable="false" oncontextmenu="return false" onerror="this.parentElement.classList.add('img-missing')">
+            <span class="watermark">Abdul Samad Qureshi</span>
+          </div>
+          <h3>Advanced Excel</h3>
+          <p>Completed</p>
+          <button class="btn btn-outline btn-sm">View Certificate</button>
+        </article>
+
+        <article class="cert-card js-cert-view" data-title="HP Data Analyst Training" data-org="HP LIFE" data-img="assets/images/certificates/cert-6.jpg">
+          <div class="cert-media">
+            <img src="assets/certificates/hp life.jpg" alt="" draggable="false" oncontextmenu="return false" onerror="this.parentElement.classList.add('img-missing')">
+            <span class="watermark">Abdul Samad Qureshi</span>
+          </div>
+          <h3>HP Data Analyst Training</h3>
+          <p>Completed</p>
+          <button class="btn btn-outline btn-sm">View Certificate</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section section-alt" id="testimonials">
+    <div class="container">
+      <p class="eyebrow">Client Feedback</p>
+      <h2 class="section-title">What They Say</h2>
+
+      <div class="testimonial-slider">
+        <div class="testimonial-track" id="testimonial-track">
+          <div class="testimonial-card">
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p>"Your client review will appear here."</p>
+            <div class="testimonial-person">
+              <div class="avatar-placeholder"><i class="fa-solid fa-user"></i></div>
+              <div><strong>Client Name</strong><span>Role / Company</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p>"Your client review will appear here."</p>
+            <div class="testimonial-person">
+              <div class="avatar-placeholder"><i class="fa-solid fa-user"></i></div>
+              <div><strong>Client Name</strong><span>Role / Company</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p>"Your client review will appear here."</p>
+            <div class="testimonial-person">
+              <div class="avatar-placeholder"><i class="fa-solid fa-user"></i></div>
+              <div><strong>Client Name</strong><span>Role / Company</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-dots" id="testimonial-dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="eyebrow">Get In Touch</p>
+        <h2 class="section-title">Let's talk about what you need</h2>
+        <p class="section-lead">Reach out directly, or send a message and I'll get back to you as soon as I can.</p>
+
+        <div class="contact-item"><i class="fa-solid fa-phone"></i><div><strong>Phone</strong><span>+92 315 6537544</span></div></div>
+        <div class="contact-item"><i class="fa-solid fa-envelope"></i><div><strong>Email</strong><span>abdulsamadqureshi738@gmail.com</span></div></div>
+        <div class="contact-item"><i class="fa-solid fa-location-dot"></i><div><strong>Location</strong><span>Punjab, Pakistan</span></div></div>
+        <div class="contact-item"><i class="fa-solid fa-clock"></i><div><strong>Availability</strong><span>Mon–Sat, 9:00 AM – 8:00 PM</span></div></div>
+      </div>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-row">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" placeholder="Your name" required>
+          <span class="form-error" id="err-name"></span>
+        </div>
+        <div class="form-row">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" placeholder="you@example.com" required>
+          <span class="form-error" id="err-email"></span>
+        </div>
+        <div class="form-row">
+          <label for="cf-subject">Subject</label>
+          <input type="text" id="cf-subject" name="subject" placeholder="What is this about?" required>
+          <span class="form-error" id="err-subject"></span>
+        </div>
+        <div class="form-row">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" placeholder="Tell me a bit about what you need" required></textarea>
+          <span class="form-error" id="err-message"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        <p class="form-note" id="form-note"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Abdul Samad Qureshi</h3>
+      <p>Computer Operator, Digital Services Professional, Web Developer &amp; Graphic Designer — practical technology support and design work.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Fiverr" class="fiverr-link"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.2 4.5h3.3V1h-3.8C8.9 1 7 3.9 7 7.5V9H4v3.5h3V23h4V12.5h4.5V9H11V7.7c0-2.1.7-3.2 2.2-3.2z"/></svg></a>
+        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div>
+      <h4>Navigate</h4>
+      <a href="#home">Home</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p><i class="fa-solid fa-phone"></i> +92 315 6537544</p>
+      <p><i class="fa-solid fa-envelope"></i> abdulsamadqureshi738@gmail.com</p>
+      <p><i class="fa-solid fa-location-dot"></i> Punjab, Pakistan</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Abdul Samad Qureshi. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- ============ PROJECT MODAL ============ -->
+<div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="modal-backdrop js-close-modal"></div>
+  <div class="modal-panel">
+    <button class="modal-close js-close-modal" aria-label="Close">&times;</button>
+    <div id="project-modal-body"></div>
+  </div>
+</div>
+
+<!-- ============ SERVICE MODAL ============ -->
+<div class="modal" id="service-modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="modal-backdrop js-close-modal"></div>
+  <div class="modal-panel">
+    <button class="modal-close js-close-modal" aria-label="Close">&times;</button>
+    <div id="service-modal-body"></div>
+  </div>
+</div>
+
+<!-- ============ CERTIFICATE MODAL ============ -->
+<div class="modal" id="cert-modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="modal-backdrop js-close-modal"></div>
+  <div class="modal-panel modal-panel-image">
+    <button class="modal-close js-close-modal" aria-label="Close">&times;</button>
+    <div id="cert-modal-body"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
